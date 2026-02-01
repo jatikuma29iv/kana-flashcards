@@ -24,11 +24,13 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "publicPath": "/kana-flashcards/",
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-asset"
-    ]
+    ],
+    "experiments": {
+      "baseUrl": "/kana-flashcards"
+    }
   }
 }
