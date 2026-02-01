@@ -391,6 +391,6 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),e.getLocalAssetUri=function(t,n){return null}},320,[]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return s}}),_e.setCustomSourceTransformer=c,Object.defineProperty(_e,"pickScale",{enumerable:!0,get:function(){return l}});var e,t=r(d[0]),n=r(d[1]),u=(e=n)&&e.__esModule?e:{default:e};let o;function c(e){o=e}function f(e){if('object'==typeof e)return e;const n=(0,t.getAssetByID)(e);if(!n)return null;const c=new u.default('https://expo.dev',null,n);return o?o(c):c.defaultAsset()}Object.defineProperty(f,'setCustomSourceTransformer',{get:()=>c});var s=f;const{pickScale:l}=u.default},321,[235,315]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),e.useAssets=function(u){const[c,n]=(0,t.useState)(),[o,f]=(0,t.useState)();return(0,t.useEffect)(()=>{s.Asset.loadAsync(u).then(n).catch(f)},[]),[c,o]};var t=r(d[0]),s=r(d[1])},322,[36,312]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/src/data/sample.37b5ac850c496fb81b1eae1aba419bc5.tsv"},323,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="/kana-flashcards/assets/src/data/sample.37b5ac850c496fb81b1eae1aba419bc5.tsv"},323,[]);
 __r(3);
 __r(0);
